@@ -5,6 +5,7 @@ import { HashRouter, Link } from "react-router-dom";
 export default function App() {
  return (
   <div>
+    <h1>Phuong Nguyen</h1>
   <HashRouter>
   <li><Link to="/Labs">Labs</Link></li>
 
