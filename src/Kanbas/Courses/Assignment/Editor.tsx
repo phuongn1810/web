@@ -1,3 +1,4 @@
+
 export default function AssignmentEditor() {
     return (
       <div id="wd-assignments-editor">
@@ -41,9 +42,7 @@ export default function AssignmentEditor() {
    <option value="wd-group">Online</option>
 </select></h4>
 
-<h4 id="wd-group"></h4>
-<label>Online Text Entry</label><br/>
-
+<h4 id="wd-group">Online Text Entry</h4>
 <input type="checkbox" name="text-entry" id="wd-text-entry"/>
 <label htmlFor="wd-text-entry">Text Entry</label><br/>
 

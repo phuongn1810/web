@@ -1,5 +1,3 @@
-import AssignmentEditor from "./Editor";
-
 
 export default function Assignment() {
     return (
@@ -15,7 +13,7 @@ export default function Assignment() {
         <ul id="wd-assignment-list">
           <li className="wd-assignment-list-item">
             <a className="wd-assignment-link"
-              href="#/Kanbas/Courses/1234/Assignments/Editor">
+              href="#/Kanbas/Courses/1234/Assignments/123">
               A1 - ENV + HTML
             </a>
             <h4>Multiple Modules| Not Available until May 6 at 
@@ -26,7 +24,7 @@ export default function Assignment() {
           </li>
           <li className="wd-assignment-list-item">
             <a className="wd-assignment-link"
-            href="#/Kanbas/Courses/1234/Assignments/Editor">
+            href="#/Kanbas/Courses/1234/Assignments/123">
             A2 - CSS +BOOTTRAP
             </a>
             <h4>Multiple Modules| Not Available until May 13 at 
@@ -37,7 +35,7 @@ export default function Assignment() {
             </li>
           <li className="wd-assignment-list-item">
             <a className="wd-assignment-link"
-            href="#/Kanbas/Courses/1234/Assignments/Editor">
+            href="#/Kanbas/Courses/1234/Assignments/123">
             A3 - JAVASCRIPT +REACT
             </a>
             <h4>Multiple Modules| Not Available until May 20 at 
