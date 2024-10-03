@@ -4,11 +4,14 @@ import TOC from "./TOC";
 import Lab2 from "./Lab2";
 export default function Labs() {
   return (
-    <div>
+    <div className="container">
+
+      <h1>Phuong Nguyen</h1>
       <h1>Labs</h1>
+        
       <TOC />
       <Routes>
-        <Route path="/" element={<Navigate to="Lab1" />} />
+        <Route path="/" element={<Navigate to="Lab" />} />
         <Route path="Lab1" element={<Lab1 />} />
         <Route path="Lab2" element={<Lab2 />} />
       </Routes>

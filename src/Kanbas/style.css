@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body * {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  @media (min-width: 768px) {
+    #wd-kanbas .wd-main-content-offset {
+      padding-left: 140px !important;
+    }
+  }
+  
+  .list-group.wd > .list-group-item.active {
+    color: black;
+    background-color: white;
+    border-left: 3px solid black !important;
+  }
+  
+  .btn-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-bg: #c7cdd1 !important;
+    --bs-btn-border-color: #c7cdd1 !important;
+    --bs-btn-hover-color: #fff !important;
+  }
+  .bg-secondary {
+    --bs-secondary-rgb: 199, 205, 209;
+  }
+  .list-group-item {
+    --bs-list-group-border-color: gray;
+  }
+  .wd-lesson {
+    border-left: 3px solid green !important;
+  }
+  
+
+  .wd-class-selector {
+    background-color:white;
+    color: red;
+   }
+   
+   .wd-class{
+    background-color:white;
+    color: Black;
+   }
+  
+   .wd-margin-all-around {
+    margin: 30px;
+  }
+  
+  
+  .wd-rounded-corners-all-around {
+    border-radius: 50px;
+   }
+   
+   .wd-border-fat {
+    border-width: 20px 30px 20px 30px; }
+ .wd-border-thin {
+    border-width: 1px; }
+ .wd-border-solid {
+    border-style: solid; }
+ .wd-border-white {
+    border-color:white; }
+    .wd-padding-fat {
+      padding: 50px;
+    }
+    
+    .wd-padded-bottom-right {
+      padding-bottom: 50px;
+      padding-right: 50px;
+    }
+    
+    .wd-padded-top-left {
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-bottom: 5px;
+
+    }
+    .wd-padded-left{
+      padding-left: 40px;
+    }
+
+    .wd-float-left {
+      float: left;
+   }
+   
+   .wd-float-right {
+      float: right;
+      height: 100px;
+   }
+   
+   .wd-float-done {
+      clear: both;
+   }
+   
+   .wd-float-demesion {
+    border-width: 20px 10px 20x 10px;
+   }
+.wd-margin-all-around {
+  margin: 30px;
+}
+
+   .wd-dimension-landscape {
+    width: 500px;
+    height: 350px;
+ }
+ 
+ .wd-dimension-landscape-s {
+  width: 5px;
+  height: 3px;
+}
