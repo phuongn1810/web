@@ -14,27 +14,33 @@ export default function Assignment() {
 
 
       
-        <div id="wd-assignments">
+        <div>
 
-        <input id="wd-search-assignment"
-        className= "bs-list-group-border-color float-left"
-               placeholder="Search..." />
+
+<button id="wd-assignment"
+        className=" ">
+        <CiSearch className=" "
+                style={{ bottom: "10px",
+                 }} /> 
+                <label>Search...</label>
                
+        </button>
+
+       
    
-<button id="wd-add-assignment-group"
-        className="btn btn-lg bs-btn-color me-1 border-gray">
-        <FaPlus className="position-relative me-2"
+<button id="wd-assignment-group"
+        className="btn btn-lg btn-gray bs-btn-black m-4 ">
+        <FaPlus className="position-relative me-2 "
                 style={{ bottom: "1px" }} /> 
          Group </button>
 
        <button id="wd-add-assignment-group"
-        className="btn btn-lg btn-danger me-1">
+        className="btn btn-lg btn-danger m-4">
         <FaPlus className="position-relative me-2"
                 style={{ bottom: "1px" }} />
           Assignment </button>
 
           <br/> <br/> <br/> 
-
       
           <ul id="wd-modules" className="list-group rounded-0 w-100">
     <li className="wd-module list-group-item p-0 mb-5 fs-5 border-gray">

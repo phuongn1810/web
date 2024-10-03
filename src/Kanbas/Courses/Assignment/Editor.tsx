@@ -1,3 +1,4 @@
+import { FaPlus } from "react-icons/fa6";
 
 export default function AssignmentEditor() {
     return (
@@ -13,6 +14,9 @@ export default function AssignmentEditor() {
   }}>A1</span>
     </p>
 </div>
+
+
+
 
 <p className="wd-border-thin wd-border-black wd-border-solid wd-padded-top-left">
     <span style={{
@@ -91,7 +95,7 @@ export default function AssignmentEditor() {
     </div>
 
  
-    <div id="wd-css-dimensions">
+    <div id="wd-first-box">
   <div>
     
     <div className="wd-float-right wd-dimension-landscape wd-bg-color-white
@@ -132,34 +136,44 @@ export default function AssignmentEditor() {
 Submision Type
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
- <div id="wd-css-dimensions">
+ <div id="wd-last-box">
   <div>
     
     <div className="wd-float-right wd-dimension-landscape wd-bg-color-white
                     wd-fg-color-black border black  ">
-       <div id="wd-css-margins-for-text">
+       <div id="wd-within-final-box">
   
-  </div>
 
-<div id="wd-bs-grid-system">
+
+
+
+
+       </div>
+
+<div id="wd-assign-to">
   <div className="row">
   
-    <div className="col-10 bg-white text-black wd-margin-all-around">
-      <label htmlFor="wd-assign-to">Assign to</label><br />
+    <div className="col-10 bg-white text-black wd-margin-all-around ">
+      <div>
+    <label htmlFor="wd-due-date "> Assign To </label><br/>
 
-    <input id="wd-assign-to" placeholder="Everyone X" /> 
+<input 
+      id="wd-due-date"
+      placeholder ="Everyone X"/>
+ </div>    
 
-    
     </div>
   </div>
-</div>
 
-<div id="wd-bs-grid-system">
+
+ </div>
+
+<div id="wd-due-date">
   <div className="row">
   
-    <div className="col-10 bg-white text-black wd-margin-all-around">
+    <div className="col-10 bg-white text-black wd-margin-all-around ">
       <div>
-    <label htmlFor="wd-due-date"> Due </label><br/>
+    <label htmlFor="wd-due-date "> Due </label><br/>
 
 <input type="date"
       id="wd-due-date"
@@ -175,7 +189,7 @@ Submision Type
 
     <div className="col-4 bg-white wd-margin-all-around">
     <div>
-    <label htmlFor="wd-due-date"> Available From </label><br/>
+    <label htmlFor="wd-to-date"> Available From </label><br/>
     <span style={{
   paddingLeft: "0px",
   paddingTop: "40px",
@@ -189,7 +203,7 @@ Submision Type
     </div>
     <div className="col-4 bg-white text-black wd-margin-all-around">
     <div>
-    <label htmlFor="wd-due-date"> Until </label><br/>
+    <label htmlFor="wd-to-date"> Until </label><br/>
     <span style={{
   paddingLeft: "0px",
   paddingTop: "40px",

@@ -47,8 +47,12 @@ body {
   
    .wd-margin-all-around {
     margin: 30px;
+    
   }
-  
+  #wd-due-date{
+    width: 100%
+  }
+
   
   .wd-rounded-corners-all-around {
     border-radius: 50px;
@@ -107,6 +111,12 @@ body {
  }
  
  .wd-dimension-landscape-s {
-  width: 5px;
+  width: 20px;
   height: 3px;
+}
+
+
+#wd-assignment {
+  padding-right: 90px; 
+  height: 40px;
 }
